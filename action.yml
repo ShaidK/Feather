@@ -1,0 +1,12 @@
+# File: action.yml | Note: Used to defined the main inputs, outputs & entry point for the GitHub Action
+# Date: 30/03/2020
+
+name:        'Feather'
+description: 'TODO'
+author:      'ShaidK'
+run:
+	using: 'docker'
+	image: 'DockerFile'
+branding:
+	color: 'blue'
+	icon:  'twitter'
