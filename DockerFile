@@ -1,0 +1,4 @@
+# File: DockerFile | Note: Used to defined the main Docker Image to be used to execute the Github Action 
+# Date: 30/03/2020
+
+FROM mcr.microsoft.com/powershell:latest
