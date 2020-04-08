@@ -1,0 +1,20 @@
+# File: .build.yml | Note: Used to configure the GitHub Actions Build Pipeline when deploying this Project
+# Date: 08/04/2020 
+
+name: Build & Lint Feather Github Action Workflow
+
+on:
+    push:
+      branches:
+          - build
+    pull_request:
+        types: [ opened ]
+
+jobs:
+    Snowstorm:
+        name:       Build & Lint Feather Github Action Project
+        runs-on:    windows-latest
+        steps:
+            - name: Project Workflow
+              run: Write-Output 'Running Powershell Script..............'
+ 
